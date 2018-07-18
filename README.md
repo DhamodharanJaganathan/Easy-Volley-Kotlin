@@ -16,7 +16,7 @@ This library is not yet released in Maven Central, until then you can add as a l
 
 ### Add this below line in root build.gradle
 
-```groovy
+```java
 
     allprojects {
         repositories {
@@ -29,7 +29,7 @@ This library is not yet released in Maven Central, until then you can add as a l
     
 then add a library dependency. **Remember** to check for latest release [here](https://github.com/DhamodharanJaganathan/Easy-Volley/releases) 
                              
-```groovy
+```java
     dependencies {
         compile 'com.github.DhamodharanJaganathan:Easy-Volley:2.0.0'
     }
@@ -37,7 +37,7 @@ then add a library dependency. **Remember** to check for latest release [here](h
 
 ## Example for GET method :
 
-```grovy
+```java
  if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
       HashMap<String, String> payload = new HashMap<>();  // Dummy payload
@@ -74,7 +74,7 @@ then add a library dependency. **Remember** to check for latest release [here](h
 
 ## Example for POST method :    
 
-```grovy
+```java
 if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
       // post data (ie: form data)
@@ -114,7 +114,7 @@ if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
 ## Example for PUT method : 
 
-```grovy
+```java
  if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
       // post data (ie: form data)
@@ -154,7 +154,7 @@ if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
 ## Example for DELETE method :
 
-```grovy
+```java
 if (InternetConnectionChecker.getInstance(this).isOnline()) {
 
       HashMap<String, String> payload = new HashMap<>();  // Dummy payload
