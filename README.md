@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DhamodharanJaganathan/Easy-Volley/master/Screenshots/android_banner.png">
+  <img src="https://raw.githubusercontent.com/DhamodharanJaganathan/Easy-Volley-Kotlin/master/Screenshots/android_banner.png">
 
 
 # Easy-Volley-Android (Retry Policy Added)
